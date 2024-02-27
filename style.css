@@ -1,0 +1,267 @@
+/* work sans font from google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Work Sans", sans-serif;
+}
+/* nav start */
+header
+{
+    background-color: #FFF4E7;
+    padding: 40px 210px 0px 210px;
+}
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-logo
+{
+    font-size: 25px;
+    color: #FF900E;
+}
+.main-nav ul
+{
+    display: flex;
+    gap: 1.9rem;
+}
+.main-nav ul li
+{
+    list-style: none;
+}
+.main-nav ul li a
+{
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    font-size: 18px;
+}
+/* nav end */
+
+/* banner start */
+.banner
+{
+    text-align: center;
+    padding: 50px 0px;
+}
+.banner-content
+{
+    width: 760px;
+    margin: 0px auto;
+}
+.banner-content h1
+{
+    font-size: 40px;
+}
+.banner-title
+{
+    margin-bottom: 7px;
+}
+.banner-content p
+{
+    font-size: 16px;
+    padding-bottom: 13px;
+}
+.banner-btn
+{
+    background-color: #FF900E;
+    padding: 13px 20px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 19px;
+    color: #FFF4E7;
+    font-weight: 500;
+    cursor: pointer;
+}
+.banner img
+{
+    width: 100%;
+}
+/* banner end */
+
+/* main start */
+/* features section start */
+.features-section
+{
+    padding: 70px 220px;
+    display: flex;
+    justify-content: space-around;
+}
+.img-section
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+.img-section, .description-section
+{
+    width: 50%;
+}
+.img-section img
+{
+    width: 100%;
+}
+.description-section
+{
+    padding-left: 40px;
+    margin: auto 0px;
+}
+.description-section h1
+{
+    color: #000;
+    font-size: 35px;
+}
+.description-section .light-black
+{
+    color: #838383;
+    font-weight: 400;
+}
+.description-section .orange-col
+{
+    color: #FF900E;
+    margin-bottom: 10px;
+}
+.description-section p
+{
+    margin-bottom: 25px;
+}
+/* features section end */
+/* love section start */
+.love-section
+{
+    margin: 30px 180px 40px 180px;
+    display: flex;
+    justify-content: space-between;
+}
+.love-description, .love-image
+{
+    width: 50%;
+}
+.love-description
+{
+    padding: 10px;
+}
+.love-image img
+{
+    width: 100%;
+    padding: 10px;
+    height: 100%;
+}
+.love-heading
+{
+    margin-bottom: 15px;
+}
+.love-heading i
+{
+    margin-right: 10px;
+}
+.love-heading h2
+{
+    color: #FF900E;
+    font-size: 25px;
+    padding-left: 20px;
+}
+.love-heading p
+{
+    margin-top: 10px;
+    color: black;
+}
+.love-card
+{
+    padding-right: 30px;
+}
+.love-card div
+{
+    margin-bottom: 15px;
+    padding: 15px;
+    box-shadow: 1px 1px 5px gray, -1px -1px 5px gray;
+    border-radius: 5px;
+}
+.experience
+{
+    display: inline-block;
+    position: relative;
+    bottom: 70px;
+    right: 60px;
+    background-color: #FF900E;
+    padding: 12px 25px;
+    border-radius: 7px;
+    color: white;
+    font-weight: 700;
+}
+.experience::selection
+{
+    user-select: all;
+}
+/* love section end */
+/* facts section start */
+.facts-section
+{
+    margin: 0px 210px 30px 210px ;
+}
+.facts-description h3
+{
+    font-size: 1.9rem;
+    margin-bottom: 7px;
+}
+.facts-badge
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin-top: 2.9rem;
+}
+.facts-badge div
+{
+    border: 1px solid #FF900E;
+    padding: 20px;
+    border-radius: 4px;
+}
+.facts-badge h3
+{
+    font-size: 2rem;
+    margin: 10px 0px;
+}
+/* facts section end */
+/* Sponsors section start*/
+.sponsors-section
+{
+    text-align: center;
+    margin: 50px 200px 30px 200px;
+}
+.sponsors-section h2
+{
+    font-size: 2rem;
+    margin-bottom: 7px;
+}
+.sponsors-card
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+.sponsors-card img
+{
+    width: 100px;
+}
+/*sponsors section end */
+/* main end */
+/* footer start */
+footer
+{
+    margin: 90px 200px 200px 200px;
+    text-align: center;
+    background-color: #ffeed8;
+    padding: 30px;
+    font-size: 17px;
+}
+
+/* footer end */

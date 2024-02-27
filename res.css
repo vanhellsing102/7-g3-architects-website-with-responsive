@@ -1,0 +1,165 @@
+@media screen and (max-width: 576px) {
+    header
+    {
+        padding: 10px 10px;
+    }
+    nav
+    {
+        flex-direction: column;
+    }
+    .banner-content
+    {
+        width: 100%;
+    }
+    .nav-logo
+    {
+        margin-bottom: 2rem;
+    }
+    .features-section
+    {
+        flex-direction: column-reverse;
+        padding: 50px 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    .img-section
+    {
+        margin-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+    }
+    .img-section, .description-section
+    {
+        width: 100%;
+    }
+    .love-section
+    {
+        flex-direction: column;
+        margin: 10px 10px;
+    }
+    .love-description, .love-image
+    {
+        width: 100%;
+    }
+    .experience
+    {
+        top: 20px;
+        left: 160px;
+    }
+    .love-card
+    {
+        padding: 10px;
+    }
+    .facts-section, .sponsors-section
+    {
+        margin: 20px;
+    }
+    .facts-badge, .sponsors-card
+    {
+        flex-direction: column;
+    }
+    .facts-badge div
+    {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    .sponsors-card img
+    {
+        width: 150px;
+        margin-bottom: 2rem;
+    }
+    .experience
+    {
+        display: none;
+    }
+    footer
+    {
+        margin: 100px 0px 100px 0px;
+    }
+}
+
+
+
+
+/* for medium devices */
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    header
+    {
+        padding: 10px 10px;
+    }
+    nav
+    {
+        flex-direction: column;
+    }
+    .banner-content
+    {
+        width: 100%;
+    }
+    .nav-logo
+    {
+        margin-bottom: 2rem;
+    }
+    .features-section
+    {
+        flex-direction: column;
+        padding: 70px 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    .experience
+    {
+        display: none;
+    }
+    .img-section
+    {
+        margin-bottom: 50px;
+    }
+    .img-section, .description-section
+    {
+        width: 100%;
+    }
+    .love-section, .sponsors-card
+    {
+        flex-direction: column;
+        margin: 10px 10px;
+    }
+    .love-description, .love-image
+    {
+        width: 100%;
+    }
+    .experience
+    {
+        bottom: 50px;
+        left: 210px;
+    }
+    .love-card
+    {
+        padding: 10px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+    .love-card div
+    {
+        margin-bottom: 0px;
+    }
+    .facts-section, .sponsors-section
+    {
+        margin: 20px;
+    }
+    .facts-badge
+    {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+    .sponsors-card img
+    {
+        width: 150px;
+        margin-top: 2rem;
+    }
+    footer
+    {
+        margin: 100px 0px 100px 0px;
+    }
+}
